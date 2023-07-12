@@ -1,7 +1,7 @@
 @import "@tryghost/shared-theme-assets/assets/css/v2/screen.css";
 
 :root {
-    --font-serif: EB Garamond, serif;
+    --font-serif: EB Garamond, Noto Serif SC, serif;
     --font-sans: Poppins, sans-serif;
 }
 
@@ -148,7 +148,7 @@ body {
     }
 
     .gh-list.grid .gh-list-item.no-image::after,
-    .gh-list.grid .gh-list-item:not(.no-image) + .gh-list-item.no-image::before {
+    .gh-list.grid .gh-list-item:not(.no-image)+.gh-list-item.no-image::before {
         position: absolute;
         top: 0;
         bottom: 0;

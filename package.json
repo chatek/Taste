@@ -1,5 +1,5 @@
 {
-    "name": "taste",
+    "name": "taste-chatek",
     "description": "A Ghost theme",
     "version": "1.0.0",
     "private": true,
@@ -44,7 +44,10 @@
         "custom": {
             "style": {
                 "type": "select",
-                "options": ["Elegant", "Playful"],
+                "options": [
+                    "Elegant",
+                    "Playful"
+                ],
                 "default": "Elegant"
             },
             "background_color": {
@@ -53,7 +56,11 @@
             },
             "navigation_layout": {
                 "type": "select",
-                "options": ["Logo on the left", "Logo in the middle", "Stacked"],
+                "options": [
+                    "Logo on the left",
+                    "Logo in the middle",
+                    "Stacked"
+                ],
                 "default": "Logo in the middle"
             },
             "email_signup_text": {
@@ -75,7 +82,11 @@
             },
             "header_action": {
                 "type": "select",
-                "options": ["Subscribe", "Search", "No action"],
+                "options": [
+                    "Subscribe",
+                    "Search",
+                    "No action"
+                ],
                 "default": "Subscribe",
                 "group": "homepage"
             },

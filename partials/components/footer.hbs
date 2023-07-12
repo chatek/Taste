@@ -1,6 +1,6 @@
 {{!--
-    Parameters:
-    * footerText (text)
+Parameters:
+* footerText (text)
 --}}
 
 <footer class="gh-foot gh-outer">
@@ -11,9 +11,10 @@
 
         <div class="gh-copyright">
             {{#unless footerText}}
-                {{@site.title}} &copy; {{date format="YYYY"}}. Powered by <a href="https://ghost.org/" target="_blank" rel="noopener">Ghost</a>
+            {{@site.title}} &copy; {{date format="YYYY"}}. Powered by <a href="https://chatek.co/" target="_blank"
+                rel="noopener">Chatek</a> and <a href="https://ghost.org/" target="_blank" rel="noopener">Ghost</a>
             {{else}}
-                {{footerText}}
+            {{footerText}}
             {{/unless}}
         </div>
     </div>
